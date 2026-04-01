@@ -1,0 +1,69 @@
+{
+  "generated_utc": "2026-10-11T06:21:14.499601+00:00",
+  "source_relative_to_images": "../../sample_results/readme-benchmark/results.json.gz",
+  "source_sha256": "a8d9e96444739adad24be0cb877fdf02c7888ae9603536d9e86277c83597f01a",
+  "config": {
+    "n": 8,
+    "degree": 3,
+    "graph_seeds": [
+      11,
+      23,
+      37,
+      71,
+      89
+    ],
+    "run_seeds": [
+      101,
+      202,
+      303
+    ],
+    "depths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "optimizers": [
+      "COBYLA",
+      "Nelder-Mead",
+      "Powell"
+    ],
+    "modes": [
+      "ideal",
+      "shots",
+      "noisy"
+    ],
+    "evaluation_budget": 240,
+    "shots": 2048,
+    "final_shots": 16384,
+    "greedy_restarts": 8,
+    "noise": {
+      "single_qubit": 0.001,
+      "two_qubit": 0.01,
+      "readout": 0.02
+    }
+  },
+  "benchmark_trials": 810,
+  "real_hardware": false,
+  "representative_rule": "First configured graph and starting seed, COBYLA ideal training, fixed p=3; not the best trial.",
+  "representative_run_id": "g11-s101-p3-ideal-COBYLA",
+  "histogram_extra_evaluations": 2,
+  "histogram_extra_shots": 32768,
+  "convergence_note": "Raw recorded incumbents; early-stopped incumbents retained without extra calls; training selection can be optimistic.",
+  "files": {
+    "01-depth-comparison.png": "9f55e5b5403f8d85a9853729eb2b056ae0e62235bea025f8882f406d9a27cfcc",
+    "01-depth-comparison.svg": "468946472a71b47a1ac20ce105b4a643c0630db3fec1c9385732e26839234f26",
+    "02-optimizer-convergence.png": "d955726d28a4b7de76a68418fb57d84936813c87f7c4fc10ece8cb5b52a9327e",
+    "02-optimizer-convergence.svg": "1f576c8cfe1c928ff5cb712ccbc9e90f5f62130922a694f7fe8de6b501e2a4a0",
+    "03-graph-best-cut.png": "fe481918ce49c211e2338012c568591318555dac6a9d408b329489cce9effc0d",
+    "03-graph-best-cut.svg": "c6426dc54314754205e79825e520de9c30978920658839dc9da19a754b749338",
+    "04-qaoa-circuit.png": "0f7381f34f880e691d19f0362561d4dd8bbceac8453c6e5c83dbbe6f9577afcb",
+    "04-qaoa-circuit.svg": "85e301b93b4c931d17601dda03db1bf39daa48f27941aeed03f59e6a8ac6eeb3",
+    "05-measurement-distribution.png": "114d43ef8b25fa44b6dde8f52d0cd778a1e153c657a7293b255f11b7ba87e9a2",
+    "05-measurement-distribution.svg": "54a77d7b76a5e7c559ed4306c8bdbc37e7a87fd8957e548539cc8b7434cf73e3",
+    "06-evaluation-cost.png": "01d7c401fcd80f1df4596d06a975a0b9fd4627e51d1ac80909ff91792fcad376",
+    "06-evaluation-cost.svg": "444a3696c0974ac92cd07d338b31f71717e20c7522d8a5d082ced51474dee097"
+  }
+}

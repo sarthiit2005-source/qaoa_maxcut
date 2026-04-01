@@ -1,0 +1,19 @@
+{
+  "status": "verified",
+  "trials": 810,
+  "summary_groups": 54,
+  "graphs_pairwise_nonisomorphic": true,
+  "elapsed_seconds": 1182.6537448000163,
+  "training_evaluations": 149778,
+  "total_circuit_evaluations": 150588,
+  "total_simulated_shots": 202463232,
+  "termination_statuses": {
+    "converged": 290,
+    "budget_exhausted": 520
+  },
+  "raw_bytes": 78405209,
+  "gzip_bytes": 11107643,
+  "gzip_sha256": "a8d9e96444739adad24be0cb877fdf02c7888ae9603536d9e86277c83597f01a",
+  "lossless_compression_verified": true,
+  "real_hardware": false
+}

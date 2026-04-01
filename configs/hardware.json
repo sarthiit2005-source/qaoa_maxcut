@@ -1,0 +1,13 @@
+{
+  "n": 4,
+  "degree": 2,
+  "graph_seeds": [11],
+  "run_seeds": [101],
+  "depths": [1],
+  "optimizers": ["COBYLA"],
+  "modes": ["ideal"],
+  "evaluation_budget": 80,
+  "shots": 256,
+  "final_shots": 1024,
+  "greedy_restarts": 8
+}

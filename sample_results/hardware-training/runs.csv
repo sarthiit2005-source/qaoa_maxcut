@@ -1,0 +1,2 @@
+run_id,graph_seed,run_seed,mode,optimizer,depth,approximation_ratio,ratio_standard_error,objective_evaluations,training_shots,final_shots,status,optimization_seconds
+g11-s101-p1-ideal-COBYLA,11,101,ideal,COBYLA,1,0.7499999949796317,0.0,36,0,0,converged,0.20472420001169667

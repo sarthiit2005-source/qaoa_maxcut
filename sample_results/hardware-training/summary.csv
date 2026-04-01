@@ -1,0 +1,2 @@
+mode,optimizer,depth,trials,graphs,mean_ratio,trial_ratio_sd,trial_ratio_variance,graph_mean_ratio_sd,mean_within_graph_seed_sd,mean_objective_evaluations,mean_training_shots,mean_optimization_seconds
+ideal,COBYLA,1,1,1,0.7499999949796317,,,,,36.0,0.0,0.20472420001169667

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "kind": "hardware_plan",
+  "status": "not_submitted",
+  "source_run_id": "g11-s101-p1-ideal-COBYLA",
+  "source_mode": "ideal",
+  "graph": {
+    "n": 4,
+    "edges": [
+      [
+        0,
+        1,
+        1.0
+      ],
+      [
+        0,
+        3,
+        1.0
+      ],
+      [
+        1,
+        2,
+        1.0
+      ],
+      [
+        2,
+        3,
+        1.0
+      ]
+    ]
+  },
+  "depth": 1,
+  "parameters": [
+    0.785377395742368,
+    0.3927480955807619
+  ],
+  "exact_optimum": 4.0,
+  "ideal_expected_cut": 2.9999999799185266,
+  "shots_per_circuit": 1024,
+  "number_of_circuits": 2,
+  "circuit_order": [
+    "qaoa",
+    "uniform_reference"
+  ],
+  "seed_transpiler": 42,
+  "measurement_convention": "Rightmost classical bit is graph vertex 0."
+}

@@ -1,0 +1,14 @@
+{
+  "n": 8,
+  "degree": 3,
+  "graph_seeds": [11, 23, 37, 71, 89],
+  "run_seeds": [101, 202, 303],
+  "depths": [1, 2, 3, 4, 5, 6],
+  "optimizers": ["COBYLA", "Nelder-Mead", "Powell"],
+  "modes": ["ideal", "shots", "noisy"],
+  "evaluation_budget": 240,
+  "shots": 2048,
+  "final_shots": 16384,
+  "greedy_restarts": 8,
+  "noise": {"single_qubit": 0.001, "two_qubit": 0.01, "readout": 0.02}
+}

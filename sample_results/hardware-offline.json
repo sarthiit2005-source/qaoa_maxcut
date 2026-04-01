@@ -1,0 +1,141 @@
+{
+  "kind": "offline_hardware_check",
+  "real_hardware": false,
+  "plan": {
+    "schema_version": 1,
+    "kind": "hardware_plan",
+    "status": "not_submitted",
+    "source_run_id": "g11-s101-p1-ideal-COBYLA",
+    "source_mode": "ideal",
+    "graph": {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1,
+          1.0
+        ],
+        [
+          0,
+          3,
+          1.0
+        ],
+        [
+          1,
+          2,
+          1.0
+        ],
+        [
+          2,
+          3,
+          1.0
+        ]
+      ]
+    },
+    "depth": 1,
+    "parameters": [
+      0.785377395742368,
+      0.3927480955807619
+    ],
+    "exact_optimum": 4.0,
+    "ideal_expected_cut": 2.9999999799185266,
+    "shots_per_circuit": 1024,
+    "number_of_circuits": 2,
+    "circuit_order": [
+      "qaoa",
+      "uniform_reference"
+    ],
+    "seed_transpiler": 42,
+    "measurement_convention": "Rightmost classical bit is graph vertex 0."
+  },
+  "backend": "fake_manila",
+  "compiled_depths": [
+    26,
+    4
+  ],
+  "operation_counts": [
+    {
+      "rz": 24,
+      "cx": 14,
+      "sx": 12,
+      "measure": 4,
+      "barrier": 1
+    },
+    {
+      "rz": 8,
+      "sx": 4,
+      "measure": 4,
+      "barrier": 1
+    }
+  ],
+  "logical_to_physical": [
+    [
+      1,
+      4,
+      3,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "results": {
+    "qaoa": {
+      "mean_cut": 2.8203125,
+      "standard_error": 0.03371760278228451,
+      "shots": 1024,
+      "best_observed_cut": 4.0,
+      "best_observed_bitstring": "1010",
+      "optimal_probability": 0.4345703125,
+      "approximation_ratio": 0.705078125,
+      "counts": {
+        "1010": 218,
+        "0101": 227,
+        "1000": 31,
+        "0010": 57,
+        "1101": 33,
+        "1111": 14,
+        "1100": 82,
+        "0100": 54,
+        "0110": 66,
+        "1001": 68,
+        "0011": 67,
+        "0001": 32,
+        "1011": 26,
+        "0000": 11,
+        "1110": 23,
+        "0111": 15
+      }
+    },
+    "uniform_reference": {
+      "mean_cut": 1.962890625,
+      "standard_error": 0.029676763759227957,
+      "shots": 1024,
+      "best_observed_cut": 4.0,
+      "best_observed_bitstring": "1010",
+      "optimal_probability": 0.103515625,
+      "approximation_ratio": 0.49072265625,
+      "counts": {
+        "0011": 78,
+        "0010": 80,
+        "0110": 82,
+        "1011": 53,
+        "0100": 64,
+        "0001": 67,
+        "1111": 62,
+        "0111": 58,
+        "1101": 63,
+        "1100": 71,
+        "1110": 54,
+        "1000": 62,
+        "1001": 61,
+        "1010": 57,
+        "0101": 49,
+        "0000": 63
+      }
+    }
+  }
+}

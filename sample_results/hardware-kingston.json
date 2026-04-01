@@ -1,0 +1,161 @@
+{
+  "kind": "hardware_job",
+  "status": "DONE",
+  "plan": {
+    "schema_version": 1,
+    "kind": "hardware_plan",
+    "status": "not_submitted",
+    "source_run_id": "g11-s101-p1-ideal-COBYLA",
+    "source_mode": "ideal",
+    "graph": {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1,
+          1.0
+        ],
+        [
+          0,
+          3,
+          1.0
+        ],
+        [
+          1,
+          2,
+          1.0
+        ],
+        [
+          2,
+          3,
+          1.0
+        ]
+      ]
+    },
+    "depth": 1,
+    "parameters": [
+      0.785377395742368,
+      0.3927480955807619
+    ],
+    "exact_optimum": 4.0,
+    "ideal_expected_cut": 2.9999999799185266,
+    "shots_per_circuit": 4096,
+    "number_of_circuits": 2,
+    "circuit_order": [
+      "qaoa",
+      "uniform_reference"
+    ],
+    "seed_transpiler": 42,
+    "measurement_convention": "Rightmost classical bit is graph vertex 0."
+  },
+  "backend": "ibm_kingston",
+  "compiled_depths": [
+    43,
+    4
+  ],
+  "operation_counts": [
+    {
+      "rz": 33,
+      "sx": 28,
+      "cz": 14,
+      "measure": 4,
+      "barrier": 1
+    },
+    {
+      "rz": 8,
+      "sx": 4,
+      "measure": 4,
+      "barrier": 1
+    }
+  ],
+  "logical_to_physical": [
+    [
+      20,
+      41,
+      36,
+      21
+    ],
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "submission_started_utc": "2026-10-11T06:41:11.185997+00:00",
+  "job_id": "db5iv1svf2bc73d00bd0",
+  "last_fetched_utc": "2026-10-11T07:18:43.679581+00:00",
+  "results": {
+    "qaoa": {
+      "mean_cut": 2.92236328125,
+      "standard_error": 0.01768729816731543,
+      "shots": 4096,
+      "best_observed_cut": 4.0,
+      "best_observed_bitstring": "1010",
+      "optimal_probability": 0.4970703125,
+      "approximation_ratio": 0.7305908203125,
+      "counts": {
+        "1100": 274,
+        "0110": 289,
+        "0010": 56,
+        "1010": 1020,
+        "0101": 1016,
+        "0011": 316,
+        "1000": 61,
+        "1011": 140,
+        "1101": 118,
+        "1001": 339,
+        "0111": 68,
+        "1110": 76,
+        "1111": 68,
+        "0100": 65,
+        "0001": 111,
+        "0000": 79
+      }
+    },
+    "uniform_reference": {
+      "mean_cut": 1.96923828125,
+      "standard_error": 0.015550654981981675,
+      "shots": 4096,
+      "best_observed_cut": 4.0,
+      "best_observed_bitstring": "0101",
+      "optimal_probability": 0.1162109375,
+      "approximation_ratio": 0.4923095703125,
+      "counts": {
+        "0001": 260,
+        "1101": 257,
+        "0111": 344,
+        "1110": 231,
+        "0011": 370,
+        "1001": 241,
+        "0000": 174,
+        "1111": 365,
+        "1011": 378,
+        "0110": 261,
+        "0010": 224,
+        "0101": 238,
+        "1010": 238,
+        "0100": 148,
+        "1100": 188,
+        "1000": 179
+      }
+    }
+  },
+  "job_metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.43.1,qiskit-2.2.3*,qiskit_aer-0.17.2*",
+    "timestamps": {
+      "created": "2026-10-11T06:41:11.421533Z",
+      "finished": "2026-10-11T07:12:50.24588Z",
+      "running": "2026-10-11T07:12:10.851934Z"
+    },
+    "bss": {
+      "seconds": 4
+    },
+    "usage": {
+      "quantum_seconds": 4,
+      "seconds": 4,
+      "status": "complete"
+    }
+  }
+}
