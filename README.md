@@ -140,7 +140,7 @@ For a hardware run, the laptop first optimizes the angles. IBM's quantum process
 
 ### Completed real-device experiment: ibm_kingston
 
-Job `db5iv1svf2bc73d00bd0` completed on **11 October 2026**, with a four-vertex cycle, **p=1**, and **4,096 shots per circuit**. Angles were optimized locally and then evaluated on IBM hardware alongside a uniform-superposition reference. The exact maximum cut is 4.
+Job `db5iv1svf2bc73d00bd0` completed on **2 April 2026**, with a four-vertex cycle, **p=1**, and **4,096 shots per circuit**. Angles were optimized locally and then evaluated on IBM hardware alongside a uniform-superposition reference. The exact maximum cut is 4.
 
 | Condition | Expected cut | Expected cut / optimum |
 |---|---:|---:|
