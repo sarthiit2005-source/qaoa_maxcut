@@ -188,12 +188,6 @@ changes.md          every major change, its reason, and its validation
 
 Use [docs/concepts.md](docs/concepts.md) for a suggested reading order. [changes.md](changes.md) explains what changed and why. [docs/verification.md](docs/verification.md) lists the checks that were actually run. For a study chat, [TEACHING_HANDOFF.txt](TEACHING_HANDOFF.txt) provides a seven-day teaching plan.
 
-## Attribution and scope
-
-This is a new implementation based on the QAOA/Max-Cut study idea in the supplied **Hybrid-Quantum-Classical-Algorithms** project. [docs/provenance.md](docs/provenance.md) explains that starting point and the new implementation. Results, affiliations, and authorship claims from the reference project are not presented as belonging to this project.
-
-An institute license for this new project is pending. No license is assigned here. Third-party libraries retain their own licenses.
-
 ## Technical references
 
 - [Original QAOA paper, Farhi, Goldstone, Gutmann](https://arxiv.org/abs/1411.4028)
